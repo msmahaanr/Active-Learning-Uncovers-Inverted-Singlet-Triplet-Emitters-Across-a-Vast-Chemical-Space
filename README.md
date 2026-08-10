@@ -1,8 +1,11 @@
 Repository Structure
 
 Folder 1. Optimization of Design Strategy
+
    Strategy-I
+   
    Strategy-II
+   
    Strategy-III
 
 Each has:
