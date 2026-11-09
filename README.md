@@ -25,3 +25,6 @@ Data for remaining four hydrocarbon families:
 - TSO-DFT@B3LYP-def2-SVP_GFN2-xTB – Excitation properties calculated using TSO-DFT at the B3LYP/def2-SVP level on GFN2-xTB-optimized geometries
 - TSO-DFT@B3LYP-def2-SVP_B3LYP-def2-SVP – Refined excitation properties calculated using TSO-DFT at the B3LYP/def2-SVP level on B3LYP/def2-SVP reoptimized geometries for molecules exhibiting negative ΔEST
 - XYZ@B3LYP-def2-SVP – Ground-state and T1 excited-state Cartesian coordinates (XYZ format) from B3LYP/def2-SVP optimizations
+
+**Code: Active Learning Workflow **
+- The Model.py script contains the complete automated active learning workflow, including xTB geometry optimization, Qbics input generation, excited-state energy extraction, and the XGBoost classifier for batch selection.
